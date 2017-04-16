@@ -1,0 +1,33 @@
+PODS:
+  - MBProgressHUD (1.0.0)
+  - Nimble (6.0.1)
+  - Quick (1.1.0)
+  - RxCocoa (3.2.0):
+    - RxSwift (~> 3.1)
+  - RxDataSources (1.0.3):
+    - RxCocoa (~> 3.0)
+    - RxSwift (~> 3.0)
+  - RxSwift (3.2.0)
+  - SnapKit (3.2.0)
+
+DEPENDENCIES:
+  - MBProgressHUD (~> 1.0)
+  - Nimble
+  - Quick
+  - RxCocoa (~> 3.0)
+  - RxDataSources (~> 1.0)
+  - RxSwift (~> 3.0)
+  - SnapKit (~> 3.0)
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  Nimble: 1527fd1bd2b4cf0636251a36bc8ab37e81da8347
+  Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
+  RxCocoa: ccdf43101a70407097a29082f648ba1676075b30
+  RxDataSources: a021a0e944ba5f7991259829d973afdbfa719c0b
+  RxSwift: 46574f70d416b7923c237195939cc488a7fbf3a0
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+
+PODFILE CHECKSUM: 741e93641823c3cbf2facfd58a387a1cd14992b9
+
+COCOAPODS: 1.1.1

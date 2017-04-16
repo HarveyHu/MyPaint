@@ -1,0 +1,21 @@
+platform :ios, '9.0'
+inhibit_all_warnings!
+
+use_frameworks!
+
+target 'MyPaint' do
+	pod 'SnapKit',              '~> 3.0'
+	pod 'MBProgressHUD',        '~> 1.0'
+	pod 'RxSwift',              '~> 3.0'
+    pod 'RxCocoa',              '~> 3.0'
+    pod 'RxDataSources',        '~> 1.0'
+end
+
+def testing_pods
+    pod 'Quick'
+    pod 'Nimble'
+end
+
+target 'MyPaintTests' do
+    testing_pods
+end
